@@ -1,6 +1,6 @@
 import os
 
-print os.getcwd()
+print (os.getcwd())
 
 #open a file to write to it
 someUsefulFile = open("theFileIWantToWriteTo.txt" , "w") 
@@ -13,6 +13,6 @@ someUsefulFile.close();
 #open a file to read from it
 someUsefulFile = open("theFileIWantToWriteTo.txt" , "r") 
 for i in range(10):
-    print someUsefulFile.read()
+    print (someUsefulFile.read())
 
 someUsefulFile.close();
